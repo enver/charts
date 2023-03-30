@@ -3,6 +3,17 @@ entries:
   re-label:
   - apiVersion: v2
     appVersion: "1.0"
+    created: "2023-03-30T15:11:00.509715851Z"
+    description: A Helm chart for re-label
+    digest: 8213747e3c1d1ed181b0766c2af90157480e92bd590d7828561810e54197b491
+    maintainers:
+    - name: Enver Cicak
+    name: re-label
+    urls:
+    - https://github.com/enver/charts/releases/download/re-label-0.0.6/re-label-0.0.6.tgz
+    version: 0.0.6
+  - apiVersion: v2
+    appVersion: "1.0"
     created: "2023-03-30T14:51:04.803545451Z"
     description: A Helm chart for re-label
     digest: d1f8ee0f0833ffd7c51236b3291a965e44f626181cc30e75b102fc40169d5576
@@ -23,4 +34,4 @@ entries:
     urls:
     - https://github.com/enver/charts/releases/download/re-label-0.0.4/re-label-0.0.4.tgz
     version: 0.0.4
-generated: "2023-03-30T14:51:04.803551551Z"
+generated: "2023-03-30T15:11:00.509727251Z"
