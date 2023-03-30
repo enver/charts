@@ -14,4 +14,3 @@ Always
 {{ .Values.image.pullPolicy }}
 {{- end -}}
 {{- end -}}
-
