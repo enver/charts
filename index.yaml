@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  re-label:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2023-03-30T14:26:44.550322945Z"
+    description: A Helm chart for re-label
+    digest: dfc8c03d594d690090d8cc63a0c5a82084f20207f5863557b5818900401eb1ab
+    maintainers:
+    - name: Enver Cicak
+    name: re-label
+    urls:
+    - https://github.com/enver/charts/releases/download/re-label-0.0.4/re-label-0.0.4.tgz
+    version: 0.0.4
+generated: "2023-03-30T14:26:44.550330645Z"
