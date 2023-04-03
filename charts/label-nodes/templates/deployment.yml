@@ -29,11 +29,11 @@ spec:
         - name: LOG_LEVEL
           value: INFO
         - name: INTERVAL_SECONDS
-          value: {{ .Values.interval | quote }}
+          value: {{ .Values.interval | default 60 | quote }}
         - name: SOURCE_LABEL_PREFIX
-          value: {{ .Values.source_label_prefix | quote }}
+          value: {{ .Values.source_label_prefix | default "node-role.kubernetes/" | quote }}
         - name: DESTINATION_LABEL_PREFIX
-          value: {{ .Values.destination_label_prefix | quote }}
+          value: {{ .Values.destination_label_prefix | default "node-role.kubernetes.io/" | quote }}
         {{- with .Values.resources }}
         resources:
           {{- toYaml . | nindent 10 }}
