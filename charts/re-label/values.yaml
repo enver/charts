@@ -1,5 +1,0 @@
-replicas: 1
-image:
-  repository: enver/re-label
-  tag: latest
-  pullPolicy: IfNotPresent

@@ -1,7 +1,0 @@
-apiVersion: v2
-appVersion: "1.0"
-description: A Helm chart for re-label
-name: re-label
-version: 0.0.6
-maintainers:
-- name: Enver Cicak
