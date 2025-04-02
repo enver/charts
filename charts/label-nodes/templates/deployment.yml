@@ -21,6 +21,10 @@ spec:
         cluster-autoscaler.kubernetes.io/safe-to-evict: 'true'
     spec:
       serviceAccountName: {{ include "app.name" . }}
+      {{- with .Values.affinity }}
+      affinity:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
       containers:
       - name: {{ include "app.name" . }}
         image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
