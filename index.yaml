@@ -3,6 +3,17 @@ entries:
   label-nodes:
   - apiVersion: v2
     appVersion: "1.0"
+    created: "2025-05-30T12:54:40.254581602Z"
+    description: A Helm chart for label-nodes
+    digest: 2dcb068748fbade630664306350dc0ec15c537f4b1d485ab77b07f0eca53c2ed
+    maintainers:
+    - name: enver
+    name: label-nodes
+    urls:
+    - https://github.com/enver/charts/releases/download/label-nodes-0.0.4/label-nodes-0.0.4.tgz
+    version: 0.0.4
+  - apiVersion: v2
+    appVersion: "1.0"
     created: "2023-04-03T09:28:16.768818343Z"
     description: A Helm chart for label-nodes
     digest: dce92ffc38e2c22ede7214212c68f1f60054cb491df198ad2fbc431311eb00cb
@@ -68,4 +79,4 @@ entries:
     urls:
     - https://github.com/enver/charts/releases/download/re-label-0.0.4/re-label-0.0.4.tgz
     version: 0.0.4
-generated: "2023-04-03T09:28:16.768831243Z"
+generated: "2025-05-30T12:54:40.254604555Z"
